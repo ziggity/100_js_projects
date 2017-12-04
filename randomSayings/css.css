@@ -1,0 +1,122 @@
+blockquote {
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Times new roman', serif;
+    font-size: 100%;
+    line-height: 1.3;
+  }
+  
+  p {
+    margin-bottom: 0.75rem;
+    color: white;
+  }
+  
+  a {
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: #00303C;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    box-shadow: inset 0 -2px 0 0 #4B5B5F;
+  }
+  
+  .page-header {
+    background: #664244;
+    color: #7A6E6E;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .page-header h1 {
+    font-weight: normal;
+    font-size: 2.5rem;
+    margin-top: 0;
+    color: white
+  }
+  
+  .page-header p {
+    font-size: 1.5rem;
+  }
+  
+  .page-header a {
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: #474F4A;
+    text-decoration: none;
+  }
+  
+  .page-header a:hover {
+    box-shadow: inset 0 -2px 0 0 #444C48;
+  }
+  
+  .page-content {
+    margin: 0 auto;
+    max-width: 40rem;
+    padding: 2rem 1rem;
+  }
+  
+  .quote-content {
+    font-size: 1.8rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .quote-citation {
+    border-top: 1px solid #483E3E;
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 1.25rem;
+    text-align: center;
+  }
+  
+  .quote-author {
+    font-style: normal;
+    margin-left: 10px;
+  }
+  
+  .quote-author:before {
+    content: "\2022";
+    margin-right: 10px;
+  }
+  
+  .quote-actions {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .next {
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background: #C0343D;
+    border: none;
+    color: #CAAAAA;
+    letter-spacing: 2px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+  }
+  
+  .next:hover {
+    background: #9F686B;
+  }
+  
+  .next:active {
+    background: #423334;
+  }
+  
+  .next:focus {
+    outline: 2px dotted #2C3739;
+  }
+  
+  .page-footer {
+    font-weight: bold;
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+  }
+  
