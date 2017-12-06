@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>WEATHER APP</title>
+        <script src="https://use.fontawesome.com/5bc47c9d4a.js"></script>
+    	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
+  <script type="text/javascript" src="js.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    
+    </head>
+    <body class="hidden">
+        <div id="container">
+            <!-- SEARCH -->
+            <div>
+                <input type="text" name="city" id="input" placeholder="By: City">
+            </div>
+    
+            <!-- BUTTONS -->
+            <div id="buttons">
+                <button id="search" class="buttonStyle"><i class="fa fa-search fa-3x fa-fw" aria-hidden="true"></i> </button>
+                <button id="geo"><i class="fa fa-location-arrow fa-3x fa-fw" aria-hidden="true"></i></button>
+                <span class="swap"></span>
+            </div>
+            
+            <!-- INFORMATION -->
+            <table id="mainInfo">
+                <tbody>
+                    <tr>
+                      <td id="icon"></td>
+                    </tr>
+                    <tr>
+                      <td id="city"></td>
+                    </tr>
+                    <tr>
+                      <td id="tempFa"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- </section> -->
+    
+            <table id="secondInfo">
+              <tbody>
+                  <tr>
+                  <td>Min/Max: </td>
+                  <td id="minMax">---</td>
+                </tr>
+                <tr>
+                  <td>Description: </td>
+                  <td id="description">---</td>
+                </tr>
+                <tr>
+                  <td>Wind Speed: </td>
+                  <td id="windSpeed">---</td>
+                </tr>
+                <tr>
+                  <td>Humidity: </td>
+                  <td id="humidity">---</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </body>	
+    </html>

@@ -1,0 +1,151 @@
+html {
+    font-family: 'Roboto', sans-serif;  
+ } 
+
+body{
+	margin: 0;
+    color: #373737;
+    position:relative;
+    background-color: #403e48;
+}
+
+.hidden {
+    display:none;
+}
+
+/*CONTAINER*/
+#container {
+    text-align: center;
+    margin: 100px auto;
+    width: 50%;
+    height: auto;
+    border:3px solid #414044;
+    background-color: #f4f4f4;
+    background-image: url("https://images.unsplash.com/photo-1494017411273-233a4d225d36?auto=format&fit=crop&w=802&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+    background-position: center;
+}
+
+
+
+input {
+    background: white;
+    width: 53%;
+    margin: 20px auto;
+    border: 3px solid #3e4261;;
+    border-radius: 21%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #808080;
+    font-size: 22px;
+}
+
+input:focus{
+    background: #373737;
+    border: 3px solid #3e4261;
+    border-radius: 21%;
+    outline: none;
+    color: #c0b283;
+}
+
+/*BUTTONS*/
+#buttons #search,
+#buttons #geo {
+    height: auto;
+    border-radius: 20%;
+    background: #f4f4f4;
+    color: #373737;
+    border-color: #414044;
+    border-width: 2px;
+}
+
+#buttons {
+    margin: 20px auto;
+    word-spacing: 120px;
+    max-width: 310px;
+}
+
+#buttons #search:hover,
+#buttons #geo:hover {
+    background-color:#373737;
+    color: #c0b283;
+}
+
+.swap button {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    height: auto;
+    border-radius: 20%;
+    background: #f4f4f4;
+    color: #373737;
+    border-color: #414044;
+    border-width: 2px;
+}
+
+.swap button:hover {
+    background-color:#373737;
+    color: #c0b283;
+}
+
+/*MAIN INFORMATION*/
+
+#mainInfo{
+    margin: 0 auto;
+    font-size: 30px;
+    color: #d2c8ba;
+}
+
+#mainInfo img {
+    width: 90px;
+}
+
+td#city {
+    font-size: larger;
+}
+
+td#tempFa {
+    font-size: 40px;
+}
+
+
+/*OTHER INFO*/
+#secondInfo {
+    width: 100%;
+    margin: 10px auto;
+    color: #d2c8ba;
+    font-size:20px;
+}
+
+
+#secondInfo td {
+    width: 50%;
+    padding-top: 20px;
+}
+
+tr td:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	width: 400px;
+}
+
+tr td:last-of-type {
+	text-align: center;
+}
+
+#description {
+	text-transform: capitalize;
+}
+
+/*GRID 3 DAY FORECAST*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    background: grey;
+}
+
+
+
+
+
+
