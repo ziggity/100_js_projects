@@ -32,7 +32,7 @@ body {
       clear: both; }
   h1.logo{
       text-align: center;
-      color: blueviolet
+      color: blueviolet;
   }
   .mound {
     display: block;
@@ -88,15 +88,16 @@ body {
     text-align: center; }
   
   .yeti-found #roar {
-    -webkit-animation: shaky .6s linear;
-            animation: shaky .6s linear;
+    -webkit-animation: shaky .90s linear;
+            animation: shaky .9s linear;
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-    font-size: 48px;
+    font-size: 60px;
     font-weight: bold;
-    margin: 0 0 20px; }
+    margin: 0 0 20px;
+    color: purple; }
   
   .button {
     display: inline-block;

@@ -4,6 +4,7 @@ var Game = function() {
   this.MOUNDS = 9;
   this.penguins = [];
   this.yeti = Math.floor(Math.random() * this.MOUNDS);
+  console.log("cheater",this.yeti)
 };
 
 Game.prototype.start = function() {
@@ -65,7 +66,7 @@ Game.prototype.stop = function(yeti) {
   button.classList.add('button');
   roar.id = 'roar';
   button.textContent = 'Start a new game';
-  roar.textContent = 'ROOOOOAAAARRRRRR!!!!';
+  roar.textContent = 'ROOOOOAAAAARRRRRR!!!!';
   header.appendChild(roar);
   header.appendChild(button);
 
